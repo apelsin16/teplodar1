@@ -1,0 +1,11 @@
+address {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.75rem;
+}
+
+.phone {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.75rem;
+}
