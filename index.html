@@ -320,20 +320,48 @@
       <div class="cell">
         <h2 class="h2">Контакты</h2>
       </div>
-      <div class="cell small-12 large-4"><span class="badge warning"><i class="fi-map"></i></span><address>02092, Киев,
-          ул. Машинистовская, 10</address></div>
-      <div class="cell small-12 large-4"><span class="badge warning"><i class="fi-mobile"></i></span>
-        <p class="phone">+38 (093) 399-64-99</p>
+      <div class="cell small-12 large-4">
+        <span class="badge warning">
+          <i class="fi-map"></i>
+        </span>
+        <address>02092, Киев, ул. Машинистовская, 10</address>
       </div>
 
+      <div class="cell small-12 large-4">
+        <span class="badge warning">
+          <i class="fi-telephone"></i>
+        </span>
+        <a href="tel:+380933996499" class="phone">+38 (093) 399-64-99</a>
+      </div>
+      <div class="cell small-12 large-4">
+          <span class="badge warning">
+            <i class="fi-page"></i>
+          </span>
+          <a href="mailto:oscartov@gmail.com" class="email"> Напишите нам </a>
+        </div>
+        <div id="map" class="cell"></div>
+        <script>
+        var map;
 
+function initMap() {
+    var position = {
+            lat: 50.441809,
+            lng: 30.666678
+        };
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: position,
+        zoom: 18
+    });
+    var marker = new google.maps.Marker({position: position, map: map});
+}
+        </script>
     </div>
 
 
 
   </div>
 
-
+  <footer>Apelsin:) 2018</footer>
 
 
 
@@ -343,6 +371,9 @@
   <script src="js/vendor/jquery.fancybox.min.js"></script>
 
   <script src="js/app.js" defer></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_33nrpoNHN_kwhOE2F1G-VZYrV2Rl1aY&callback=initMap"
+    async defer></script>
 </body>
 
 </html>
