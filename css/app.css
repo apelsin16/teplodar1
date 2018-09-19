@@ -21,21 +21,25 @@ footer {
 .rebeccapurple {
     background-color: #663399;
     color: #fff;
+    padding: 1rem;
 }
 
 .darkgoldenrod {
     background-color: #b8860b;
     color: #fff;
+    padding: 1rem;
 }
 
 .lightseagreen {
     background-color: #20b2aa;
     color: #fff;
+    padding: 1rem;
 }
 
 .dodgerblue {
     background-color: #1e90ff;
     color: #fff;
+    padding: 1rem;
 }
 
 .description {
