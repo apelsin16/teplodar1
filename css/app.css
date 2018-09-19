@@ -37,3 +37,13 @@ footer {
     background-color: #1e90ff;
     color: #fff;
 }
+
+.description {
+    font-size: 0.75rem;
+    padding-bottom: 3rem;
+   
+}
+
+.description h4 {
+    font-size: 1rem;
+}
