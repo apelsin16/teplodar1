@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Отопители на отработанном масле</title>
-  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/foundation-icons.css">
   <link rel="stylesheet" href="css/app.css">
@@ -334,26 +334,26 @@
         <a href="tel:+380933996499" class="phone">+38 (093) 399-64-99</a>
       </div>
       <div class="cell small-12 large-4">
-          <span class="badge warning">
-            <i class="fi-page"></i>
-          </span>
-          <a href="mailto:oscartov@gmail.com" class="email"> Напишите нам </a>
-        </div>
-        <div id="map" class="cell"></div>
-        <script>
-        var map;
+        <span class="badge warning">
+          <i class="fi-page"></i>
+        </span>
+        <a href="mailto:oscartov@gmail.com" class="email"> Напишите нам </a>
+      </div>
+      <div id="map" class="cell"></div>
+      <script>
+       var map;
 
-function initMap() {
-    var position = {
-            lat: 50.441809,
-            lng: 30.666678
-        };
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: position,
-        zoom: 18
-    });
-    var marker = new google.maps.Marker({position: position, map: map});
-}
+    function initMap() {
+        var position = {
+                lat: 50.441809,
+                lng: 30.666678
+            };
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: position,
+            zoom: 18
+        });
+        var marker = new google.maps.Marker({position: position, map: map});
+    }
         </script>
     </div>
 
@@ -367,7 +367,7 @@ function initMap() {
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
-  <script src="js/vendor/foundation.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
   <script src="js/vendor/jquery.fancybox.min.js"></script>
 
   <script src="js/app.js" defer></script>
