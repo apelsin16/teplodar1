@@ -39,7 +39,7 @@
             используются для воздушного отопления автосервисов, гаражей, складов, цехов, производств, ангаров и любых
             других промышленных помещений</p>
 
-<div class="table-scroll">
+          <div class="table-scroll">
             <table class="table-scroll scroll">
               <thead>
                 <tr>
@@ -95,10 +95,10 @@
               </tbody>
             </table>
           </div>
-            <div class="description">
-               <h4> *Расчетные величины:</h4>
-               1 литр дизельного топлива/ топочного мазута / отработанного масла = 10,8 кВт/час.
-               1 м3 газа = 7,89 кВт/час.
+          <div class="description">
+            <h4> *Расчетные величины:</h4>
+            1 литр дизельного топлива/ топочного мазута / отработанного масла = 10,8 кВт/час.
+            1 м3 газа = 7,89 кВт/час.
           </div>
 
 
@@ -393,10 +393,19 @@
       </div>
 
       <div class="cell small-12 large-4">
-        <span class="badge warning">
-          <i class="fi-telephone"></i>
-        </span>
-        <a href="tel:+380933996499" class="phone">+38 (093) 399-64-99</a>
+        <div>
+          <span class="badge warning">
+            <i class="fi-telephone"></i>
+          </span>
+          <a href="tel:+380933996499" class="phone">+38 (093) 399-64-99</a>
+        </div>
+        <div>
+          <span class="badge warning">
+            <i class="fi-telephone"></i>
+          </span>
+          <a href="tel:+380933996495" class="phone">+38 (093) 399-64-95</a>
+        </div>
+
       </div>
       <div class="cell small-12 large-4">
         <span class="badge warning">
@@ -406,20 +415,23 @@
       </div>
       <div id="map" class="cell"></div>
       <script>
-       var map;
+        var map;
 
-    function initMap() {
-        var position = {
-                lat: 50.441809,
-                lng: 30.666678
-            };
-        map = new google.maps.Map(document.getElementById('map'), {
+        function initMap() {
+          var position = {
+            lat: 50.441809,
+            lng: 30.666678
+          };
+          map = new google.maps.Map(document.getElementById('map'), {
             center: position,
             zoom: 18
-        });
-        var marker = new google.maps.Marker({position: position, map: map});
-    }
-        </script>
+          });
+          var marker = new google.maps.Marker({
+            position: position,
+            map: map
+          });
+        }
+      </script>
     </div>
 
 
