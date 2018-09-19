@@ -47,3 +47,7 @@ footer {
 .description h4 {
     font-size: 1rem;
 }
+
+.green {
+    background-color: #3adb76;
+}
