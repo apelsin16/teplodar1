@@ -17,3 +17,23 @@ footer {
     height: 2.5rem;
     text-align: center;
 }
+
+.rebeccapurple {
+    background-color: #663399;
+    color: #fff;
+}
+
+.darkgoldenrod {
+    background-color: #b8860b;
+    color: #fff;
+}
+
+.lightseagreen {
+    background-color: #20b2aa;
+    color: #fff;
+}
+
+.dodgerblue {
+    background-color: #1e90ff;
+    color: #fff;
+}
